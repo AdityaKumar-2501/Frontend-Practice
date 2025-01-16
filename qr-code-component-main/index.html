@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: outfit;
+    }
+    body{
+      background-color: hsl(212, 45%, 89%);
+    }
+    .container{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .img{
+      border-radius: 10px;
+    }
+
+    .card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: hsl(0, 0%, 100%);
+      width: 400px;
+      padding: 20px;
+
+      border-radius: 10px;
+      width: 290px;
+    }
+
+    .content{
+      width: 280px;
+    }
+    .title{
+      padding-bottom: 20px;
+      padding-top: 20px;
+      font-size: 22px;
+      font-weight: 700;
+      color: hsl(218, 44%, 22%);
+    }
+    .desc{
+      font-size: 15px;
+      font-weight: 400;
+      color: hsl(216, 15%, 48%)
+    }
+
+  </style>
+</head>
+<body>
+    <div class="container">
+      <div class="card">
+        <div>
+          <img src="../qr-code-component-main/images/image-qr-code.png" 
+          height="250"
+          class="img"
+          alt="qr-code">
+        </div>
+        <div class="content">
+            <div class="title">Improve your front-end Skills by building projects</div>
+            <div class="desc">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
